@@ -1,0 +1,71 @@
+body {
+    background-color: #333333;  
+}
+
+.titletext {
+    color: rgb(160, 190, 90);
+    font-family:system-ui,'Segoe UI';
+}
+
+.centredtext {
+    text-align: center;
+}
+
+.guesslist {
+    display: flex;
+    flex-direction: column;
+}
+
+.columntitles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columntitle {
+    color: rgb(160, 190, 90);
+    font-family:system-ui,'Segoe UI';
+    font-weight: bold;
+    flex: 1 1 0%;
+    text-align: center;
+}
+
+.guessrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.guessresult {
+    color: rgb(250, 235, 140);
+    font-family:system-ui,'Segoe UI';
+    flex: 1 1 0%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.inputarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1vw;
+    gap: 2vw;
+}
+
+input {
+    border: rgb(160, 190, 90);
+    font-family:system-ui,'Segoe UI';
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button {
+    font-family:system-ui,'Segoe UI';
+    border: rgb(160, 190, 90);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Politoedle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src = "scripts.js"></script>
+    </head>
+    <body>
+        <div class = "centredtext titletext"> 
+            <h1>Politoedle</h1>
+            <h2>An unlimited Pokémon guessing game, but you always start with Politoed!</h2>
+        </div>
+        <div class="guesslist" id = "guesslist">
+            <div class = "columntitles">
+                <div class="columntitle">Guess Name</div>
+                <div class="columntitle">Generation</div>
+                <div class="columntitle">Primary Type</div>
+                <div class="columntitle">Secondary Type</div>
+                <div class="columntitle">Height</div>
+                <div class="columntitle">Weight</div>
+            </div>    
+            <div class="guessrow">
+                <div class="guessresult">Politoed</div>
+                <div class="guessresult">⬆️</div>
+                <div class="guessresult">🟨</div>
+                <div class="guessresult">❌</div>
+                <div class="guessresult">⬇️</div>
+                <div class="guessresult">✅</div>
+            </div>
+            <div class="guessrow">
+                <div class="guessresult">Garchomp</div>
+                <div class="guessresult">⬆️</div>
+                <div class="guessresult">✅</div>
+                <div class="guessresult">❌</div>
+                <div class="guessresult">⬇️</div>
+                <div class="guessresult">⬇️</div>
+            </div>
+        </div>
+        <div class = "inputarea" > 
+            <input placeholder="Who else but Politoed?" id = "userguess"> 
+            <button onclick="addguess()">Guess! </button>
+        </div>
+    </body>
+</html>
