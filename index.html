@@ -10,21 +10,23 @@
             <h2>An unlimited Pokémon guessing game, but you always start with Politoed!</h2>
         </div>
         <div class="guesslist" id = "guesslist">
-            <div class = "columntitles">
-                <div class="columntitle">Guess</div>
-                <div class="columntitle">Name</div>
-                <div class="columntitle">Generation</div>
-                <div class="columntitle">Primary Type</div>
-                <div class="columntitle">Secondary Type</div>
-                <div class="columntitle">Height</div>
-                <div class="columntitle">Weight</div>
-            </div>    
+            <div class="columntitle">Guess</div>
+            <div class="columntitle">📷</div>
+            <div class="columntitle">Name</div>
+            <div class="columntitle">Generation</div>
+            <div class="columntitle">Type 1</div>
+            <div class="columntitle">Type 2</div>
+            <div class="columntitle">Height</div>
+            <div class="columntitle">Weight</div>
         </div>
         <div class = "inputarea" > 
-            <input placeholder="Who else but Politoed?" id = "userguess"> 
-            <button onclick="addguess()">Guess! </button>
+            <div class = "inputcontainer">
+                <input placeholder="Who else but Politoed?" id = "userguess"> 
+                <div class = "dropdown" id = "dropdown"></div>
+            </div>
+            <button onclick="addguess()" id = "guessbutton">Guess! </button>
         </div>
-        <div class = "incorrect" id = "incorrect"></div>
+        <div class = "message" id = "message"></div>
     <script src="jquerymin.js"></script>
     <script src="jquery.csv.min.js"></script>
     <script src = "scripts.js"></script>

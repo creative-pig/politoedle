@@ -384,7 +384,7 @@ Kyogre,3,Water,,45,3520
 Groudon,3,Ground,,35,9500
 Rayquaza,3,Dragon,Flying,70,2065
 Jirachi,3,Steel,Psychic,3,11
-Deoxys (Normal Forme),3,Psychic,,17,608
+Deoxys,3,Psychic,,17,608
 Turtwig,4,Grass,,4,102
 Grotle,4,Grass,,11,970
 Torterra,4,Grass,Ground,22,3100
@@ -411,7 +411,7 @@ Rampardos,4,Rock,,16,1025
 Shieldon,4,Rock,Steel,5,570
 Bastiodon,4,Rock,Steel,13,1495
 Burmy,4,Bug,,2,34
-Wormadam (Plant Cloak),4,Bug,Grass,5,65
+Wormadam Plant,4,Bug,Grass,5,65
 Mothim,4,Bug,Flying,9,233
 Combee,4,Bug,Flying,3,55
 Vespiquen,4,Bug,Flying,12,385
@@ -485,12 +485,12 @@ Dialga,4,Steel,Dragon,54,6830
 Palkia,4,Water,Dragon,42,3360
 Heatran,4,Fire,Steel,17,4300
 Regigigas,4,Normal,,37,4200
-Giratina (Altered Forme),4,Ghost,Dragon,45,7500
+Giratina Altered,4,Ghost,Dragon,45,7500
 Cresselia,4,Psychic,,15,856
 Phione,4,Water,,4,31
 Manaphy,4,Water,,3,14
 Darkrai,4,Dark,,15,505
-Shaymin (Land Forme),4,Grass,,2,21
+Shaymin,4,Grass,,2,21
 Arceus,4,Normal,,32,3200
 Victini,5,Psychic,Fire,4,40
 Snivy,5,Grass,,6,81
@@ -548,12 +548,12 @@ Cottonee,5,Grass,Fairy,3,6
 Whimsicott,5,Grass,Fairy,7,66
 Petilil,5,Grass,,5,66
 Lilligant,5,Grass,,11,163
-Basculin (Red Striped),5,Water,,10,180
+Basculin,5,Water,,10,180
 Sandile,5,Ground,Dark,7,152
 Krokorok,5,Ground,Dark,10,334
 Krookodile,5,Ground,Dark,15,963
 Darumaka,5,Fire,,6,375
-Darmanitan (Standard Mode),5,Fire,,13,929
+Darmanitan,5,Fire,,13,929
 Maractus,5,Grass,,10,280
 Dwebble,5,Bug,Rock,3,145
 Crustle,5,Bug,Rock,14,2000
@@ -639,14 +639,14 @@ Volcarona,5,Bug,Fire,16,460
 Cobalion,5,Steel,Fighting,21,2500
 Terrakion,5,Rock,Fighting,19,2600
 Virizion,5,Grass,Fighting,20,2000
-Tornadus (Incarnate Forme),5,Flying,,15,630
-Thundurus (Incarnate Forme),5,Electric,Flying,15,610
+Tornadus Incarnate,5,Flying,,15,630
+Thundurus Incarnate,5,Electric,Flying,15,610
 Reshiram,5,Dragon,Fire,32,3300
 Zekrom,5,Dragon,Electric,29,3450
-Landorus (Incarnate Forme),5,Ground,Flying,15,680
+Landorus Incarnate,5,Ground,Flying,15,680
 Kyurem,5,Dragon,Ice,30,3250
-Keldeo (Ordinary Form),5,Water,Fighting,14,485
-Meloetta (Aria Forme),5,Normal,Psychic,6,65
+Keldeo,5,Water,Fighting,14,485
+Meloetta Aria,5,Normal,Psychic,6,65
 Genesect,5,Bug,Steel,15,825
 Chespin,6,Grass,,4,90
 Quilladin,6,Grass,,7,290
@@ -676,10 +676,10 @@ Pancham,6,Fighting,,6,80
 Pangoro,6,Fighting,Dark,21,1360
 Furfrou,6,Normal,,12,280
 Espurr,6,Psychic,,3,35
-Meowstic Male,6,Psychic,,6,85
+Meowstic,6,Psychic,,6,85
 Honedge,6,Steel,Ghost,8,20
 Doublade,6,Steel,Ghost,8,45
-Aegislash (Shield Forme),6,Steel,Ghost,17,530
+Aegislash,6,Steel,Ghost,17,530
 Spritzee,6,Fairy,,2,5
 Aromatisse,6,Fairy,,8,155
 Swirlix,6,Fairy,,4,35
@@ -708,8 +708,8 @@ Goodra,6,Dragon,,20,1505
 Klefki,6,Steel,Fairy,2,30
 Phantump,6,Ghost,Grass,4,70
 Trevenant,6,Ghost,Grass,15,710
-Pumpkaboo (Average Size),6,Ghost,Grass,4,50
-Gourgeist (Average Size),6,Ghost,Grass,9,125
+Pumpkaboo,6,Ghost,Grass,4,50
+Gourgeist,6,Ghost,Grass,9,125
 Bergmite,6,Ice,,10,995
 Avalugg,6,Ice,,20,5050
 Noibat,6,Flying,Dragon,5,80
@@ -772,11 +772,11 @@ Palossand,7,Ghost,Ground,13,2500
 Pyukumuku,7,Water,,3,12
 Type: Null,7,Normal,,19,1205
 Silvally,7,Normal,,23,1005
-Minior Red Meteor,7,Rock,Flying,3,400
+Minior,7,Rock,Flying,3,400
 Komala,7,Normal,,4,199
 Turtonator,7,Fire,Dragon,20,2120
 Togedemaru,7,Electric,Steel,3,33
-Mimikyu Disguised,7,Ghost,Fairy,2,7
+Mimikyu,7,Ghost,Fairy,2,7
 Bruxish,7,Water,Psychic,9,190
 Drampa,7,Normal,Dragon,30,1850
 Dhelmise,7,Ghost,Grass,39,2100
@@ -847,7 +847,7 @@ Cramorant,8,Flying,Water,8,180
 Arrokuda,8,Water,,5,10
 Barraskewda,8,Water,,13,300
 Toxel,8,Electric,Poison,4,110
-Toxtricity Amped,8,Electric,Poison,16,400
+Toxtricity,8,Electric,Poison,16,400
 Sizzlipede,8,Fire,Bug,7,10
 Centiskorch,8,Fire,Bug,30,1200
 Clobbopus,8,Fighting,,6,40
@@ -873,9 +873,9 @@ Pincurchin,8,Electric,,3,10
 Snom,8,Ice,Bug,3,38
 Frosmoth,8,Ice,Bug,13,420
 Stonjourner,8,Rock,,25,5200
-Eiscue Ice,8,Ice,,14,890
-Indeedee Male,8,Psychic,Normal,9,280
-Morpeko Full Belly,8,Electric,Dark,3,30
+Eiscue,8,Ice,,14,890
+Indeedee,8,Psychic,Normal,9,280
+Morpeko,8,Electric,Dark,3,30
 Cufant,8,Steel,,12,1000
 Copperajah,8,Steel,,30,6500
 Dracozolt,8,Electric,Dragon,18,1900
@@ -900,7 +900,7 @@ Calyrex,8,Psychic,Grass,11,77
 Wyrdeer,9,Normal,Psychic,18,951
 Kleavor,9,Bug,Rock,18,890
 Ursaluna,9,Ground,Normal,24,2900
-Basculegion Male,9,Water,Ghost,30,1100
+Basculegion,9,Water,Ghost,30,1100
 Sneasler,9,Fighting,Poison,13,430
 Overqwil,9,Dark,Poison,25,605
 Enamorus Incarnate,9,Fairy,Flying,16,480
@@ -914,7 +914,7 @@ Quaxly,9,Water,,5,61
 Quaxwell,9,Water,,12,215
 Quaquaval,9,Water,Fighting,18,619
 Lechonk,9,Normal,,5,102
-Oinkologne Male,9,Normal,,10,1200
+Oinkologne,9,Normal,,10,1200
 Tarountula,9,Bug,,3,40
 Spidops,9,Bug,,10,165
 Nymble,9,Bug,,2,10
@@ -923,13 +923,13 @@ Pawmi,9,Electric,,3,25
 Pawmo,9,Electric,Fighting,4,65
 Pawmot,9,Electric,Fighting,9,410
 Tandemaus,9,Normal,,3,18
-Maushold Family Of Four,9,Normal,,3,23
+Maushold Four,9,Normal,,3,23
 Fidough,9,Fairy,,3,109
 Dachsbun,9,Fairy,,5,149
 Smoliv,9,Grass,Normal,3,65
 Dolliv,9,Grass,Normal,6,119
 Arboliva,9,Grass,Normal,14,482
-Squawkabilly Green Plumage,9,Normal,Flying,6,24
+Squawkabilly,9,Normal,Flying,6,24
 Nacli,9,Rock,,4,160
 Naclstack,9,Rock,,6,1050
 Garganacl,9,Rock,,23,2400
@@ -976,7 +976,7 @@ Cetoddle,9,Ice,,12,450
 Cetitan,9,Ice,,45,7000
 Veluza,9,Water,Psychic,25,900
 Dondozo,9,Water,,120,2200
-Tatsugiri Curly,9,Dragon,Water,3,80
+Tatsugiri,9,Dragon,Water,3,80
 Annihilape,9,Fighting,Ghost,12,560
 Clodsire,9,Poison,Ground,18,2230
 Farigiraf,9,Normal,Psychic,32,1600
@@ -1024,41 +1024,31 @@ Iron Boulder,9,Rock,Psychic,15,1625
 Iron Crown,9,Steel,Psychic,16,1560
 Terapagos,9,Normal,,2,65
 Pecharunt,9,Poison,Ghost,3,3
-Deoxys (Attack Forme),3,Psychic,,17,608
-Deoxys (Defense Forme),3,Psychic,,17,608
-Deoxys (Speed Forme),3,Psychic,,17,608
-Wormadam (Sandy Cloak),4,Bug,Ground,5,65
-Wormadam (Trash Cloak),4,Bug,Steel,5,65
-Shaymin (Sky Forme),4,Grass,Flying,4,52
-Giratina (Origin Forme),4,Ghost,Dragon,69,6500
+Deoxys Attack,3,Psychic,,17,608
+Deoxys Defense,3,Psychic,,17,608
+Deoxys Speed,3,Psychic,,17,608
+Wormadam Sandy,4,Bug,Ground,5,65
+Wormadam Trash,4,Bug,Steel,5,65
+Shaymin Sky,4,Grass,Flying,4,52
+Giratina Origin,4,Ghost,Dragon,69,6500
 Rotom Heat,4,Electric,Fire,3,3
 Rotom Wash,4,Electric,Water,3,3
 Rotom Frost,4,Electric,Ice,3,3
 Rotom Fan,4,Electric,Flying,3,3
 Rotom Mow,4,Electric,Grass,3,3
-Castform (Sunny Form),3,Fire,,3,8
-Castform (Rainy Form),3,Water,,3,8
-Castform (Snowy Form),3,Ice,,3,8
-Basculin (Blue Striped),5,Water,,10,180
-Darmanitan (Zen Mode),5,Fire,Psychic,13,929
-Meloetta (Pirouette Forme),5,Normal,Fighting,6,65
-Tornadus (Therian Forme),5,Flying,,14,630
-Thundurus (Therian Forme),5,Electric,Flying,30,610
-Landorus (Therian Forme),5,Ground,Flying,13,680
+Castform Sunny,3,Fire,,3,8
+Castform Rainy,3,Water,,3,8
+Castform Snowy,3,Ice,,3,8
+Darmanitan Zen,5,Fire,Psychic,13,929
+Tornadus Therian,5,Flying,,14,630
+Thundurus Therian,5,Electric,Flying,30,610
+Landorus Therian,5,Ground,Flying,13,680
 Kyurem Black,5,Dragon,Ice,33,3250
 Kyurem White,5,Dragon,Ice,36,3250
-Keldeo (Resolute Form),5,Water,Fighting,14,485
-Meowstic Female,6,Psychic,,6,85
-Aegislash (Blade Forme),6,Steel,Ghost,17,530
-Pumpkaboo Small,6,Ghost,Grass,3,35
-Pumpkaboo Large,6,Ghost,Grass,5,75
-Pumpkaboo Super,6,Ghost,Grass,8,150
-Gourgeist Small,6,Ghost,Grass,7,95
-Gourgeist Large,6,Ghost,Grass,11,140
-Gourgeist Super,6,Ghost,Grass,17,390
+Meowstic,6,Psychic,,6,85
 Mega Venusaur,1,Grass,Poison,24,1555
-Charizard Mega X,1,Fire,Dragon,17,1105
-Charizard Mega Y,1,Fire,Flying,17,1005
+Mega Charizard X,1,Fire,Dragon,17,1105
+Mega Charizard Y,1,Fire,Flying,17,1005
 Mega Blastoise,1,Water,,16,1011
 Mega Alakazam,1,Psychic,,12,480
 Mega Gengar,1,Ghost,Poison,14,405
@@ -1066,8 +1056,8 @@ Mega Kangaskhan,1,Normal,,22,1000
 Mega Pinsir,1,Bug,Flying,17,590
 Mega Gyarados,1,Water,Dark,65,3050
 Mega Aerodactyl,1,Rock,Flying,21,790
-Mewtwo Mega X,1,Psychic,Fighting,23,1270
-Mewtwo Mega Y,1,Psychic,,15,330
+Mega Mewtwo X,1,Psychic,Fighting,23,1270
+Mega Mewtwo Y,1,Psychic,,15,330
 Mega Ampharos,2,Electric,Dragon,14,615
 Mega Scizor,2,Bug,Steel,20,1250
 Mega Heracross,2,Bug,Fighting,17,625
@@ -1103,12 +1093,6 @@ Mega Metagross,3,Steel,Psychic,25,9429
 Primal Kyogre,3,Water,,98,4300
 Primal Groudon,3,Ground,Fire,50,9997
 Mega Rayquaza,3,Dragon,Flying,108,3920
-Pikachu Rock Star,1,Electric,,4,60
-Pikachu Belle,1,Electric,,4,60
-Pikachu Pop Star,1,Electric,,4,60
-Pikachu Phd,1,Electric,,4,60
-Pikachu Libre,1,Electric,,4,60
-Pikachu Cosplay,1,Electric,,4,60
 Hoopa Unbound,6,Psychic,Dark,65,4900
 Mega Camerupt,3,Fire,Ground,25,3205
 Mega Lopunny,4,Normal,Fighting,13,283
@@ -1116,13 +1100,6 @@ Mega Salamence,3,Dragon,Flying,18,1126
 Mega Beedrill,1,Bug,Poison,14,405
 Alolan Rattata,1,Dark,Normal,3,38
 Alolan Raticate,1,Dark,Normal,7,255
-Raticate Totem Alola,1,Dark,Normal,14,1050
-Pikachu Original Cap,1,Electric,,4,60
-Pikachu Hoenn Cap,1,Electric,,4,60
-Pikachu Sinnoh Cap,1,Electric,,4,60
-Pikachu Unova Cap,1,Electric,,4,60
-Pikachu Kalos Cap,1,Electric,,4,60
-Pikachu Alola Cap,1,Electric,,4,60
 Alolan Raichu,1,Electric,Psychic,7,210
 Alolan Sandshrew,1,Ice,Steel,7,400
 Alolan Sandslash,1,Ice,Steel,12,550
@@ -1140,50 +1117,18 @@ Alolan Muk,1,Poison,Dark,10,520
 Alolan Exeggutor,1,Grass,Dragon,109,4156
 Alolan Marowak,1,Fire,Ghost,10,340
 Greninja Battle Bond,6,Water,Dark,15,400
-Greninja Ash,6,Water,Dark,15,400
-Zygarde 10 Power Construct,6,Dragon,Ground,12,335
-Zygarde 50 Power Construct,6,Dragon,Ground,50,3050
+Zygarde 10%,6,Dragon,Ground,12,335
 Zygarde Complete,6,Dragon,Ground,45,6100
-Gumshoos Totem,7,Normal,,14,600
-Vikavolt Totem,7,Bug,Electric,26,1475
 Oricorio Pom Pom,7,Electric,Flying,6,34
 Oricorio Pau,7,Psychic,Flying,6,34
 Oricorio Sensu,7,Ghost,Flying,6,34
 Lycanroc Midnight,7,Rock,,11,250
 Wishiwashi School,7,Water,,82,786
-Lurantis Totem,7,Grass,,15,580
-Salazzle Totem,7,Poison,Fire,21,810
-Minior Orange Meteor,7,Rock,Flying,3,400
-Minior Yellow Meteor,7,Rock,Flying,3,400
-Minior Green Meteor,7,Rock,Flying,3,400
-Minior Blue Meteor,7,Rock,Flying,3,400
-Minior Indigo Meteor,7,Rock,Flying,3,400
-Minior Violet Meteor,7,Rock,Flying,3,400
-Minior Red,7,Rock,Flying,3,3
-Minior Orange,7,Rock,Flying,3,3
-Minior Yellow,7,Rock,Flying,3,3
-Minior Green,7,Rock,Flying,3,3
-Minior Blue,7,Rock,Flying,3,3
-Minior Indigo,7,Rock,Flying,3,3
-Minior Violet,7,Rock,Flying,3,3
-Mimikyu Busted,7,Ghost,Fairy,2,7
-Mimikyu Totem Disguised,7,Ghost,Fairy,4,28
-Mimikyu Totem Busted,7,Ghost,Fairy,4,28
-Kommo O Totem,7,Dragon,Fighting,24,2075
 Magearna Original,7,Steel,Fairy,10,805
-Pikachu Partner Cap,1,Electric,,4,60
-Marowak Totem,1,Fire,Ghost,17,980
-Ribombee Totem,7,Bug,Fairy,4,20
-Rockruff Own Tempo,7,Rock,,5,92
 Lycanroc Dusk,7,Rock,,8,250
-Araquanid Totem,7,Water,Bug,31,2175
-Togedemaru Totem,7,Electric,Steel,6,130
-Necrozma Dusk,7,Psychic,Steel,38,4600
-Necrozma Dawn,7,Psychic,Ghost,42,3500
+Necrozma Dusk Mane,7,Psychic,Steel,38,4600
+Necrozma Dawn Wings,7,Psychic,Ghost,42,3500
 Necrozma Ultra,7,Psychic,Dragon,75,2300
-Pikachu Starter,1,Electric,,4,60
-Eevee Starter,1,Normal,,3,65
-Pikachu World Cap,1,Electric,,4,60
 Galarian Meowth,1,Steel,,4,75
 Galarian Ponyta,1,Psychic,,8,240
 Galarian Rapidash,1,Psychic,Fairy,17,800
@@ -1200,22 +1145,16 @@ Galarian Corsola,2,Ghost,,6,5
 Galarian Zigzagoon,3,Dark,Normal,4,175
 Galarian Linoone,3,Dark,Normal,5,325
 Galarian Darumaka,5,Ice,,7,400
-Darmanitan Galar Standard,5,Ice,,17,1200
-Darmanitan Galar Zen,5,Ice,Fire,17,1200
+Galarian Darmanitan Standard,5,Ice,,17,1200
+Galarian Darmanitan Zen,5,Ice,Fire,17,1200
 Galarian Yamask,5,Ground,Ghost,5,15
 Galarian Stunfisk,5,Ground,Steel,7,205
-Zygarde 10,6,Dragon,Ground,12,335
 Cramorant Gulping,8,Flying,Water,8,180
 Cramorant Gorging,8,Flying,Water,8,180
-Toxtricity Low Key,8,Electric,Poison,16,400
-Eiscue Noice,8,Ice,,14,890
-Indeedee Female,8,Psychic,Normal,9,280
-Morpeko Hangry,8,Electric,Dark,3,30
 Zacian Crowned,8,Fairy,Steel,28,3550
 Zamazenta Crowned,8,Fighting,Steel,29,7850
 Eternatus Eternamax,8,Poison,Dragon,1000,0
 Urshifu Rapid Strike,8,Fighting,Water,19,1050
-Zarude Dada,8,Dark,Grass,18,700
 Calyrex Ice,8,Psychic,Ice,24,8091
 Calyrex Shadow,8,Psychic,Ghost,24,536
 Venusaur Gmax,1,Grass,Poison,240,10000
@@ -1242,7 +1181,7 @@ Coalossal Gmax,8,Rock,Fire,420,10000
 Flapple Gmax,8,Grass,Dragon,240,10000
 Appletun Gmax,8,Grass,Dragon,240,10000
 Sandaconda Gmax,8,Ground,,220,10000
-Toxtricity Amped Gmax,8,Electric,Poison,240,10000
+Toxtricity Gmax,8,Electric,Poison,240,10000
 Centiskorch Gmax,8,Fire,Bug,750,10000
 Hatterene Gmax,8,Psychic,Fairy,260,10000
 Grimmsnarl Gmax,8,Dark,Fairy,320,10000
@@ -1251,42 +1190,32 @@ Copperajah Gmax,8,Steel,,230,10000
 Duraludon Gmax,8,Steel,Dragon,430,10000
 Urshifu Single Strike Gmax,8,Fighting,Dark,290,10000
 Urshifu Rapid Strike Gmax,8,Fighting,Water,260,10000
-Toxtricity Low Key Gmax,8,Electric,Poison,240,10000
-Growlithe Hisui,1,Fire,Rock,8,227
-Arcanine Hisui,1,Fire,Rock,20,1680
-Voltorb Hisui,1,Electric,Grass,5,130
-Electrode Hisui,1,Electric,Grass,12,710
-Typhlosion Hisui,2,Fire,Ghost,16,698
-Qwilfish Hisui,2,Dark,Poison,5,39
-Sneasel Hisui,2,Fighting,Poison,9,270
-Samurott Hisui,5,Water,Dark,15,582
-Lilligant Hisui,5,Grass,Fighting,12,192
-Zorua Hisui,5,Normal,Ghost,7,125
-Zoroark Hisui,5,Normal,Ghost,16,730
-Braviary Hisui,5,Psychic,Flying,17,434
-Sliggoo Hisui,6,Steel,Dragon,7,685
-Goodra Hisui,6,Steel,Dragon,17,3341
-Avalugg Hisui,6,Ice,Rock,14,2624
-Decidueye Hisui,7,Grass,Fighting,16,370
+Hisuian Growlithe,1,Fire,Rock,8,227
+Hisuian Arcanine,1,Fire,Rock,20,1680
+Hisuian Voltorb,1,Electric,Grass,5,130
+Hisuian Electrode,1,Electric,Grass,12,710
+Hisuian Typhlosion,2,Fire,Ghost,16,698
+Hisuian Qwilfish,2,Dark,Poison,5,39
+Hisuian Sneasel,2,Fighting,Poison,9,270
+Hisuian Samurott,5,Water,Dark,15,582
+Hisuian Lilligant,5,Grass,Fighting,12,192
+Hisuian Zorua,5,Normal,Ghost,7,125
+Hisuian Zoroark,5,Normal,Ghost,16,730
+Hisuian Braviary,5,Psychic,Flying,17,434
+Hisuian Sliggoo,6,Steel,Dragon,7,685
+Hisuian Goodra,6,Steel,Dragon,17,3341
+Hisuian Avalugg,6,Ice,Rock,14,2624
+Hisuian Decidueye,7,Grass,Fighting,16,370
 Dialga Origin,4,Steel,Dragon,70,8487
 Palkia Origin,4,Water,Dragon,63,6590
-Basculin White Striped,5,Water,,10,180
-Basculegion Female,9,Water,Ghost,30,1100
 Enamorus Therian,9,Fairy,Flying,16,480
 Tauros Paldea Combat Breed,1,Fighting,,14,1150
 Tauros Paldea Blaze Breed,1,Fighting,Fire,14,850
 Tauros Paldea Aqua Breed,1,Fighting,Water,14,1100
-Wooper Paldea,2,Poison,Ground,4,110
-Oinkologne Female,9,Normal,,10,1200
+Paldean Wooper,2,Poison,Ground,4,110
 Dudunsparce Three Segment,9,Normal,,45,474
 Palafin Hero,9,Water,,18,974
-Maushold Family Of Three,9,Normal,,3,28
-Tatsugiri Droopy,9,Dragon,Water,3,80
-Tatsugiri Stretchy,9,Dragon,Water,3,80
-Squawkabilly Blue Plumage,9,Normal,Flying,6,24
-Squawkabilly Yellow Plumage,9,Normal,Flying,6,24
-Squawkabilly White Plumage,9,Normal,Flying,6,24
-Gimmighoul Roaming,9,Ghost,,1,10
+Maushold Three,9,Normal,,3,28
 Ursaluna Bloodmoon,9,Ground,Normal,24,2900
 Ogerpon Wellspring Mask,9,Grass,Water,12,398
 Ogerpon Hearthflame Mask,9,Grass,Fire,12,398
@@ -1294,7 +1223,7 @@ Ogerpon Cornerstone Mask,9,Grass,Rock,12,398`
 
 var pokedata = jQuery.csv.toObjects(wholecsv);
 
-correctvalues = pokedata[Math.floor(Math.random() * 1292)];
+correctvalues = pokedata[Math.floor(Math.random() * 1220)];
 
 function checkname(name) {
     allnames = []
@@ -1348,16 +1277,97 @@ function valueresults(name) {
     ];
 }
 
+function checkwin(guess) {
+    if (valueresults(guess)[5]) {
+        return true
+    }
+    return false
+}
+
 function addguess() {
     guess = document.getElementById("userguess").value
-    incorrect = document.getElementById("incorrect")
+    message = document.getElementById("message")
     if (checkname(guess)) {
+        input = document.getElementById("userguess")
+        input.value = ""
+
         createrow(guess, valueresults(guess))
-        incorrect.innerHTML = ""
+
+        if (checkwin(guess)) {
+            message.innerHTML = "That's correct!"
+            button = document.getElementById("guessbutton")
+            button.innerHTML = "Reset Game?"
+            button.onclick = reset
+        }
+        else {message.innerHTML = ""}
     }
-    else {
-        incorrect.innerHTML = "That's not a Pokémon!"
+    else {message.innerHTML = "That's not a Pokémon!"}
+}
+
+function reset() {
+    guesses = document.getElementsByClassName("guessresult")
+    while (guesses[0]) {
+        guesses[0].remove()
     }
+    correctvalues = pokedata[Math.floor(Math.random() * 1292)];
+    startguess()
+
+    button = document.getElementById("guessbutton")
+    button.innerHTML = "Guess!"
+    button.onclick = addguess
+
+    message = document.getElementById("message")
+    message.innerHTML = ""
+
+    input = document.getElementById("userguess")
+    input.value = ""
+}
+
+function generatelink(format, name) {
+    // Remove form prefixes (e.g., "Mega ", "Alolan ")
+    const prefixIndicators = [
+        'Mega ', 'Primal ', 'Alolan ', 'Galarian ', 'Hisuian ', 'Paldean '
+    ];
+    for (prefix of prefixIndicators) {
+        if (name.startsWith(prefix)) {
+            name = name.substring(prefix.length);
+            break;
+        }
+    }
+
+    // Remove form suffixes (e.g., " Gmax", " Origin") - sorted by length descending
+    const suffixIndicators = [
+        ' Gmax', ' Altered', ' Origin', ' Attack', ' Defense', ' Speed', 
+        ' Therian', ' Incarnate', ' Land', ' Sky', ' Sunny', ' Rainy', 
+        ' Snowy', ' Zen', ' X', 'Y', ' 10%', ' Complete', ' Single Strike', 
+        ' Rapid Strike', ' Two Segment', ' Three Segment', ' Hero', ' Zero', 
+        ' Eternal', ' Crowned', ' Eternamax', ' Plant', ' Trash', ' Sandy', 
+        ' Gulping', ' Gorging', ' Pom Pom', ' Pau', ' Sensu', ' Midnight', 
+        ' Dusk', ' School', ' Original', ' Dusk Mane', ' Dawn Wings', 
+        ' Bloodmoon', ' Wellspring Mask', ' Hearthflame Mask', ' Cornerstone Mask'
+    ].sort((a, b) => b.length - a.length);
+    
+    for (suffix of suffixIndicators) {
+        if (name.endsWith(suffix)) {
+            name = name.substring(0, name.length - suffix.length);
+            break;
+        }
+    }
+
+    // Convert to URL-friendly string
+    newname = name
+    .replace(/'/g, '')          // Remove apostrophes (Farfetch'd → Farfetchd)
+    .replace(/[:.]/g, '')        // Remove colons/periods (Mr. Mime → Mr Mime)
+    .replace(/\s+/g, '-')        // Replace spaces with hyphens
+    .toLowerCase();            // Convert to lowercase
+
+    if (format == "dex") {
+        return `https://pokemondb.net/pokedex/${newname}`
+    }
+    if (format == "image") {
+        return `https://img.pokemondb.net/sprites/scarlet-violet/icon/${newname}.png`
+    }
+    
 }
 
 function createrow(name, results) {
@@ -1375,53 +1385,113 @@ function createrow(name, results) {
 
 
     guesslist = document.getElementById("guesslist")
-    guessrow = document.createElement("div")
-    guessrow.classList.add("guessrow")
 
-    guessname = document.createElement("div")
+    guessname = document.createElement("a")
     guessname.innerHTML = name.toLowerCase()
+    guessname.target = "_blank"
+    guessname.href = generatelink("dex", name)
     guessname.classList.add("guessresult")
-    guessrow.appendChild(guessname)
+
+    guesslist.appendChild(guessname)
+
+    guessimgdiv = document.createElement("div") 
+    guessimgdiv.classList.add("guessresult")
+
+    guessimg = document.createElement("img") 
+    guessimg.src = generatelink("image", name)
+    guessimg.classList.add("guessresult")
+    guessimg.classList.add("image")
+
+    guessimgdiv.appendChild(guessimg)
+
+    guesslist.appendChild(guessimgdiv)
+
 
     nameresult = document.createElement("div")
     if (results[5]) {nameresult.innerHTML = "✅"}
     else {nameresult.innerHTML = "❌"}
     nameresult.classList.add("guessresult")
-    guessrow.appendChild(nameresult)
+    guesslist.appendChild(nameresult)
 
     guessgen = document.createElement("div")
     guessgen.innerHTML = valuemap.get(results[0])
     guessgen.classList.add("guessresult")
-    guessrow.appendChild(guessgen)
+    guesslist.appendChild(guessgen)
 
     guesst1 = document.createElement("div")
     guesst1.innerHTML = typemap.get(results[1])
     guesst1.classList.add("guessresult")
-    guessrow.appendChild(guesst1)
+    guesslist.appendChild(guesst1)
 
     guesst2 = document.createElement("div")
     guesst2.innerHTML = typemap.get(results[2])
     guesst2.classList.add("guessresult")
-    guessrow.appendChild(guesst2)
+    guesslist.appendChild(guesst2)
 
     guessh = document.createElement("div")
     guessh.innerHTML = valuemap.get(results[3])
     guessh.classList.add("guessresult")
-    guessrow.appendChild(guessh)
+    guesslist.appendChild(guessh)
 
     guessw = document.createElement("div")
     guessw.innerHTML = valuemap.get(results[4])
     guessw.classList.add("guessresult")
-    guessrow.appendChild(guessw)
-
-    guesslist.appendChild(guessrow)
+    guesslist.appendChild(guessw)
 }
 
 function startguess() {
     createrow("Politoed", valueresults("Politoed"))
 }
 
+function showdropdown(mons) {
+    dropdown = document.getElementById("dropdown")
+    dropdown.innerHTML = ""
+
+    if (matches.length == 0) {
+        hidedropdown()
+        return
+    }
+
+    top10 = mons.slice(0,10)
+    top10.forEach(mon => {
+        item = document.createElement("div")
+        item.className = "dropdownitem"
+        item.textContent = mon.Name
+        item.onclick = () => selectmon(mon.Name)
+        dropdown.appendChild(item)
+    });
+
+    dropdown.style.display = "block"
+}
+
+function hidedropdown() {
+    dropdown = document.getElementById("dropdown")
+    dropdown.style.display = "none"
+}
+
+function filtermons(input) {
+    if (input.length == "") {
+        hidedropdown()
+        return
+    }
+    matches = pokedata.filter(pokemon => pokemon.Name.toLowerCase().startsWith(input.toLowerCase()))
+    showdropdown(matches)
+}
+
+function selectmon(name) {
+    input = document.getElementById("userguess")
+    input.value = name
+    hidedropdown()
+}
+
+
+
 window.onload = startguess;
 
-
-
+document.addEventListener("DOMContentLoaded", function() {
+    input = document.getElementById("userguess")
+    
+    input.addEventListener("input", function() {
+        filtermons(this.value)
+    })
+})
