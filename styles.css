@@ -7,11 +7,6 @@ body {
     font-family:system-ui,'Segoe UI';
 }
 
-.subtitletext {
-    color: rgb(250, 230, 145);
-    font-family:system-ui,'Segoe UI';
-}
-
 .centredtext {
     text-align: center;
 }
