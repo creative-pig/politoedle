@@ -2,6 +2,11 @@ body {
     background-color: #333333;  
 }
 
+.helptext {
+    color: rgb(250, 240, 145);
+    font-family:system-ui,'Segoe UI';
+}
+
 .titletext {
     color: rgb(160, 190, 90);
     font-family:system-ui,'Segoe UI';
