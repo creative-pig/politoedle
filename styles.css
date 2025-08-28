@@ -33,6 +33,7 @@ body {
     font-weight: bold;
     flex: 1 1 0%;
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .guessrow {
@@ -68,22 +69,23 @@ body {
 }
 
 input {
-    border: rgb(160, 190, 90);
     font-family:system-ui,'Segoe UI';
-    border-width: 5px;
-    border-style: solid;
-    border-radius: 5px;
     font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
 }
+
+.inputcontainer {
+    position: relative;
+    display: inline-block;
+} 
 
 button {
     font-family:system-ui,'Segoe UI';
-    border: rgb(160, 190, 90);
-    border-width: 5px;
-    border-style: solid;
     border-radius: 5px;
     font-weight: bold;
     cursor: pointer;
+    padding: 5px;
 }
 
 .message {
@@ -91,6 +93,7 @@ button {
     font-family:system-ui,'Segoe UI';
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
 }
 
 .dropdown {
@@ -114,13 +117,13 @@ button {
     border-bottom: 1px solid #eee;
 }
 
-.inputcontainer {
-    position: relative;
-    display: inline-block;
-} 
-
 .image {
     height: 35px;
+    object-fit:contain;
+}
+
+.bigimage {
+    height: 170px;
     object-fit:contain;
 }
 
@@ -131,28 +134,28 @@ button {
     cursor: pointer;
     color: white;
     border-radius: 6px;
-    font-weight: 500;
-    transition: all 0.3s ease;
+    font-weight: bold;
 }
 
-.tooltip .tooltipcontent {
+.tooltipcontent {
     font-family: system-ui,'Segoe UI';
-    visibility: hidden;
-    width: 4vw;
     background-color: #fff;
     color: #333333;
     text-align: center;
+    white-space: nowrap;
     border-radius: 6px;
     position: absolute;
-    padding: 2px;
+    padding: 6px;
     z-index: 1;
     bottom: 125%;
-    margin-left: -3vw;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 0;
-    transition: opacity 0.3s, visibility 0.3s;
+    transition: opacity 0.3s;
+    pointer-events: none;
 }
 
-.tooltip .tooltipcontent::after {
+.tooltipcontent::after {
     content: "";
     position: absolute;
     top: 100%;
@@ -164,7 +167,6 @@ button {
 }
 
 .tooltip:hover .tooltipcontent {
-    visibility: visible;
     opacity: 1;
 }
 

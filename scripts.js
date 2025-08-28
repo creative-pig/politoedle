@@ -1403,6 +1403,13 @@ function createrow(name, results) {
     guessimg.classList.add("guessresult")
     guessimg.classList.add("image")
 
+    guessimgdiv.classList.add("tooltip")
+    imgtooltip = document.createElement("img")
+    imgtooltip.classList.add("tooltipcontent")
+    imgtooltip.classList.add("bigimage")
+    imgtooltip.src = generatelink("image", name)
+    guessimgdiv.appendChild(imgtooltip)
+
     guessimgdiv.appendChild(guessimg)
 
     guesslist.appendChild(guessimgdiv)
@@ -1421,7 +1428,7 @@ function createrow(name, results) {
     guessgen.classList.add("tooltip")
     gentooltip = document.createElement("span")
     gentooltip.classList.add("tooltipcontent")
-    gentooltip.innerHTML = results[6].Generation
+    gentooltip.innerHTML = "Gen " + results[6].Generation
     guessgen.appendChild(gentooltip)
 
     guesslist.appendChild(guessgen)
