@@ -97,6 +97,10 @@ button {
     margin-top: 10px;
 }
 
+.message a {
+    color: rgb(250, 240, 145);
+}
+
 .dropdown {
     font-family: system-ui,'Segoe UI';
     position: absolute;
