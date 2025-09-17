@@ -1225,7 +1225,7 @@ var pokedata = jQuery.csv.toObjects(wholecsv);
 
 function decidedaily() {
     const today = new Date()
-    const todaystring = today.getFullYear() + "/" + today.getMonth() + "/" + today.getDate()
+    const todaystring = today.toISOString().substring(0,10)
     let hash = 0
     for (i = 0; i<todaystring.length; i++) {
         char = todaystring.charCodeAt(i)
@@ -1329,18 +1329,47 @@ function pushguess(guess) {
     createrow(guess, valueresults(guess))
     message = document.getElementById("message")
     if (checkwin(guess)) {
+        if (daily) {
+            message.innerHTML = "That's correct!"
+            button = document.getElementById("guessbutton")
+            button.innerHTML = "Copy Results?"
+            button.onclick = copyresults
+        }
+        else {
             message.innerHTML = "That's correct!"
             button = document.getElementById("guessbutton")
             button.innerHTML = "Reset Game?"
             button.onclick = reset
-        }
-        else {message.innerHTML = ""}
+        }  
+    }
+    else {message.innerHTML = ""}
     
     if (daily) {
         storedguesses.push(guess) 
         localStorage.setItem("savedguesses", JSON.stringify(storedguesses))
     }
     
+}
+
+function copyresults() {
+    const today = new Date()
+    const todaystring = today.toISOString().substring(0,10)
+    text = "Politoedle " + todaystring
+    results = document.getElementsByClassName("guessresult")
+
+    for (let i = 0; i < results.length; i++) {
+        if ((i % 9) > 2) {
+            text += results[i].innerHTML[0]
+        } 
+        if (i % 9 == 0) {
+            text += "\n"
+        }
+    }
+
+    navigator.clipboard.writeText(text)
+
+    alert("Results Copied!")
+
 }
 
 function reset() {
@@ -1587,6 +1616,8 @@ document.addEventListener("DOMContentLoaded", function() {
     else {localStorage.setItem("lastplayed", todaystring)}
 
     const savedstate = localStorage.getItem("savedguesses")
+
+    loadedguesses = []
 
     if (savedstate) {loadedguesses = JSON.parse(savedstate)}
 
