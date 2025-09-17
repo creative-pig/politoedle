@@ -1,5 +1,6 @@
 body {
     background-color: #333333;  
+    margin: 0px;
 }
 
 .helptext {
@@ -168,5 +169,12 @@ button {
 
 .tooltip:hover .tooltipcontent {
     opacity: 1;
+}
+
+.separator {
+    width: 150vw;
+    border-bottom: rgb(160, 190, 90) solid 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 

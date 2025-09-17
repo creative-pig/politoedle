@@ -1223,7 +1223,47 @@ Ogerpon Cornerstone Mask,9,Grass,Rock,12,398`
 
 var pokedata = jQuery.csv.toObjects(wholecsv);
 
-correctvalues = pokedata[Math.floor(Math.random() * 1220)];
+function decidedaily() {
+    const today = new Date("2006-05-27")
+
+    const todaystring = today.getFullYear() + "/" + today.getMonth() + "/" + today.getDate()
+
+    let hash = 0
+
+    for (i = 0; i<todaystring.length; i++) {
+        char = todaystring.charCodeAt(i)
+
+        hash = ((hash << 5) - hash) + char
+    }
+
+    hash = hash % 1220
+
+    console.log(pokedata)
+
+    console.log(hash)
+
+    console.log(pokedata[hash])
+
+    return pokedata[Math.abs(hash)]
+}
+
+correctvalues = decidedaily()
+daily = true
+
+function switchmode() {
+    if (daily) {
+        document.getElementById("desc").innerHTML = "An unlimited Pokémon guessing game, but you always start with Politoed!"
+        document.getElementById("modebutton").innerHTML = "Daily Mode"
+        daily = false
+        reset()
+    }
+    else {
+        document.getElementById("desc").innerHTML = "An daily Pokémon guessing game, but you always start with Politoed!"
+        document.getElementById("modebutton").innerHTML = "Unlimited Mode"
+        daily = true
+        reset()
+    }
+}
 
 function checkname(name) {
     allnames = []
@@ -1310,7 +1350,8 @@ function reset() {
     while (guesses[0]) {
         guesses[0].remove()
     }
-    correctvalues = pokedata[Math.floor(Math.random() * 1292)];
+    if (daily) {correctvalues = decidedaily()}
+    else {correctvalues = pokedata[Math.floor(Math.random() * 1220)];}
     startguess()
 
     button = document.getElementById("guessbutton")
@@ -1527,11 +1568,8 @@ function selectmon(name) {
     hidedropdown()
 }
 
-
-
-window.onload = startguess;
-
 document.addEventListener("DOMContentLoaded", function() {
+    startguess()
     input = document.getElementById("userguess")
     
     input.addEventListener("input", function() {

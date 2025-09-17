@@ -12,7 +12,7 @@
     <body>
         <div class = "centredtext titletext"> 
             <h1>Politoedle</h1>
-            <h2>An unlimited Pokémon guessing game, but you always start with Politoed!</h2>
+            <h2 id = "desc">A daily Pokémon guessing game, but you always start with Politoed!</h2>
         </div>
         <div class = "centredtext helptext">
             <h3>The icons below compare Politoed's attributes to the secret Pokémon, can you guess it?</h3>
@@ -35,6 +35,10 @@
             <button onclick="addguess()" id = "guessbutton">Guess! </button>
         </div>
         <div class = "message" id = "message"></div>
+        <div class = "separator"></div>
+        <div class = "inputarea" >
+            <button onclick="switchmode()" id = "modebutton">Unlimited Mode</button>
+        </div>
     <script src="jquerymin.js"></script>
     <script src="jquery.csv.min.js"></script>
     <script src = "scripts.js"></script>
