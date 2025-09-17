@@ -1224,31 +1224,20 @@ Ogerpon Cornerstone Mask,9,Grass,Rock,12,398`
 var pokedata = jQuery.csv.toObjects(wholecsv);
 
 function decidedaily() {
-    const today = new Date("2006-05-27")
-
+    const today = new Date()
     const todaystring = today.getFullYear() + "/" + today.getMonth() + "/" + today.getDate()
-
     let hash = 0
-
     for (i = 0; i<todaystring.length; i++) {
         char = todaystring.charCodeAt(i)
-
         hash = ((hash << 5) - hash) + char
     }
-
     hash = hash % 1220
-
-    console.log(pokedata)
-
-    console.log(hash)
-
-    console.log(pokedata[hash])
-
     return pokedata[Math.abs(hash)]
 }
 
 correctvalues = decidedaily()
 daily = true
+storedguesses = []
 
 function switchmode() {
     if (daily) {
@@ -1325,24 +1314,33 @@ function checkwin(guess) {
     return false
 }
 
-function addguess() {
+function getguess() {
     guess = document.getElementById("userguess").value
     message = document.getElementById("message")
     if (checkname(guess)) {
+        pushguess(guess)
         input = document.getElementById("userguess")
         input.value = ""
+    }
+    else {message.innerHTML = "That's not a Pokémon!"}
+}
 
-        createrow(guess, valueresults(guess))
-
-        if (checkwin(guess)) {
+function pushguess(guess) {
+    createrow(guess, valueresults(guess))
+    message = document.getElementById("message")
+    if (checkwin(guess)) {
             message.innerHTML = "That's correct!"
             button = document.getElementById("guessbutton")
             button.innerHTML = "Reset Game?"
             button.onclick = reset
         }
         else {message.innerHTML = ""}
+    
+    if (daily) {
+        storedguesses.push(guess) 
+        localStorage.setItem("savedguesses", JSON.stringify(storedguesses))
     }
-    else {message.innerHTML = "That's not a Pokémon!"}
+    
 }
 
 function reset() {
@@ -1575,4 +1573,28 @@ document.addEventListener("DOMContentLoaded", function() {
     input.addEventListener("input", function() {
         filtermons(this.value)
     })
+
+    const lastplayed = localStorage.getItem("lastplayed")
+    const today = new Date()
+    const todaystring = today.toISOString().substring(0,10)
+
+    if (lastplayed)  {
+        if (lastplayed != todaystring) {
+            localStorage.setItem("lastplayed", todaystring)
+            localStorage.removeItem("savedguesses")
+        }
+    }
+    else {localStorage.setItem("lastplayed", todaystring)}
+
+    const savedstate = localStorage.getItem("savedguesses")
+
+    if (savedstate) {loadedguesses = JSON.parse(savedstate)}
+
+    for (let i=0; i<loadedguesses.length; i++) {
+        pushguess(loadedguesses[i])
+    }
+
+    
+
+
 })
