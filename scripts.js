@@ -317,7 +317,7 @@ Roselia,3,Grass,Poison,3,20
 Gulpin,3,Poison,None,4,103
 Swalot,3,Poison,None,17,800
 Carvanha,3,Water,Dark,8,208
-Sharpedo,3,Water,Dragon,18,888
+Sharpedo,3,Water,Dark,18,888
 Wailmer,3,Water,None,20,1300
 Wailord,3,Water,None,145,3980
 Numel,3,Fire,Ground,7,240
@@ -340,7 +340,7 @@ Solrock,3,Rock,Psychic,12,1540
 Barboach,3,Water,Ground,4,19
 Whiscash,3,Water,Ground,9,236
 Corphish,3,Water,None,6,115
-Crawdaunt,3,Water,Dragon,11,328
+Crawdaunt,3,Water,Dark,11,328
 Baltoy,3,Ground,Psychic,5,215
 Claydol,3,Ground,Psychic,15,1080
 Lileep,3,Rock,Grass,10,238
@@ -450,7 +450,7 @@ Lucario,4,Fighting,Steel,12,540
 Hippopotas,4,Ground,None,8,495
 Hippowdon,4,Ground,None,20,3000
 Skorupi,4,Poison,Bug,8,120
-Drapion,4,Poison,Dragon,13,615
+Drapion,4,Poison,Dark,13,615
 Croagunk,4,Poison,Fighting,7,230
 Toxicroak,4,Poison,Fighting,13,444
 Carnivine,4,Grass,None,14,270
@@ -656,7 +656,7 @@ Braixen,6,Fire,None,10,145
 Delphox,6,Fire,Psychic,15,390
 Froakie,6,Water,None,3,70
 Frogadier,6,Water,None,6,109
-Greninja,6,Water,Dragon,15,400
+Greninja,6,Water,Dark,15,400
 Bunnelby,6,Normal,None,4,50
 Diggersby,6,Normal,Ground,10,424
 Fletchling,6,Normal,Flying,3,17
@@ -1054,7 +1054,7 @@ Mega Alakazam,1,Psychic,None,12,480
 Mega Gengar,1,Ghost,Poison,14,405
 Mega Kangaskhan,1,Normal,None,22,1000
 Mega Pinsir,1,Bug,Flying,17,590
-Mega Gyarados,1,Water,Dragon,65,3050
+Mega Gyarados,1,Water,Dark,65,3050
 Mega Aerodactyl,1,Rock,Flying,21,790
 Mega Mewtwo X,1,Psychic,Fighting,23,1270
 Mega Mewtwo Y,1,Psychic,None,15,330
@@ -1083,7 +1083,7 @@ Mega Sableye,3,Dark,Ghost,5,1610
 Mega Altaria,3,Dragon,Fairy,15,206
 Mega Gallade,4,Psychic,Fighting,16,564
 Mega Audino,5,Normal,Fairy,15,320
-Mega Sharpedo,3,Water,Dragon,25,1303
+Mega Sharpedo,3,Water,Dark,25,1303
 Mega Slowbro,1,Water,Psychic,20,1200
 Mega Steelix,2,Steel,Ground,105,7400
 Mega Pidgeot,1,Normal,Flying,22,505
@@ -1093,7 +1093,7 @@ Mega Metagross,3,Steel,Psychic,25,9429
 Primal Kyogre,3,Water,None,98,4300
 Primal Groudon,3,Ground,Fire,50,9997
 Mega Rayquaza,3,Dragon,Flying,108,3920
-Hoopa Unbound,6,Psychic,Dragon,65,4900
+Hoopa Unbound,6,Psychic,Dark,65,4900
 Mega Camerupt,3,Fire,Ground,25,3205
 Mega Lopunny,4,Normal,Fighting,13,283
 Mega Salamence,3,Dragon,Flying,18,1126
@@ -1116,7 +1116,7 @@ Alolan Grimer,1,Poison,Dark,7,420
 Alolan Muk,1,Poison,Dark,10,520
 Alolan Exeggutor,1,Grass,Dragon,109,4156
 Alolan Marowak,1,Fire,Ghost,10,340
-Greninja Battle Bond,6,Water,Dragon,15,400
+Greninja Battle Bond,6,Water,Dark,15,400
 Zygarde 10%,6,Dragon,Ground,12,335
 Zygarde Complete,6,Dragon,Ground,45,6100
 Oricorio Pom Pom,7,Electric,Flying,6,34
@@ -1231,6 +1231,7 @@ function decidedaily() {
         char = todaystring.charCodeAt(i)
         hash = ((hash << 5) - hash) + char
     }
+    hash = hash * 41
     hash = hash % 1220
     return pokedata[Math.abs(hash)]
 }
