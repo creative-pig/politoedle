@@ -1384,7 +1384,7 @@ function reset() {
 
     button = document.getElementById("guessbutton")
     button.innerHTML = "Guess!"
-    button.onclick = addguess
+    button.onclick = getguess
 
     message = document.getElementById("message")
     message.innerHTML = ""
