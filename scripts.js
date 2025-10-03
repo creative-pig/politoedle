@@ -875,7 +875,7 @@ Frosmoth,8,Ice,Bug,13,420
 Stonjourner,8,Rock,None,25,5200
 Eiscue,8,Ice,None,14,890
 Indeedee,8,Psychic,Normal,9,280
-Morpecko,8,Electric,Dark,3,30
+Morpeko,8,Electric,Dark,3,30
 Cufant,8,Steel,None,12,1000
 Copperajah,8,Steel,None,30,6500
 Dracozolt,8,Electric,Dragon,18,1900
