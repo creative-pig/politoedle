@@ -1449,7 +1449,7 @@ function createrow(name, results) {
     let typemap = new Map()
     typemap.set("right", "✅")
     typemap.set("wrong", "❌")
-    typemap.set("almost", "🟨")
+    typemap.set("almost", "↔️")
 
     console.log(results)
 
