@@ -1409,7 +1409,7 @@ function generatelink(format, name) {
     const suffixIndicators = [
         ' Gmax', ' Altered', ' Origin', ' Attack', ' Defense', ' Speed', 
         ' Therian', ' Incarnate', ' Land', ' Sky', ' Sunny', ' Rainy', 
-        ' Snowy', ' Zen', ' X', 'Y', ' 10%', ' Complete', ' Single Strike', 
+        ' Snowy', ' Zen', ' X', ' Y', ' 10%', ' Complete', ' Single Strike', 
         ' Rapid Strike', ' Two Segment', ' Three Segment', ' Hero', ' Zero', 
         ' Eternal', ' Crowned', ' Eternamax', ' Plant', ' Trash', ' Sandy', 
         ' Gulping', ' Gorging', ' Pom Pom', ' Pau', ' Sensu', ' Midnight', 
