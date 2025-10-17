@@ -1098,24 +1098,24 @@ Mega Camerupt,3,Fire,Ground,25,3205
 Mega Lopunny,4,Normal,Fighting,13,283
 Mega Salamence,3,Dragon,Flying,18,1126
 Mega Beedrill,1,Bug,Poison,14,405
-Alolan Rattata,1,Dark,Normal,3,38
-Alolan Raticate,1,Dark,Normal,7,255
-Alolan Raichu,1,Electric,Psychic,7,210
-Alolan Sandshrew,1,Ice,Steel,7,400
-Alolan Sandslash,1,Ice,Steel,12,550
-Alolan Vulpix,1,Ice,None,6,99
-Alolan Ninetales,1,Ice,Fairy,11,199
-Alolan Diglett,1,Ground,Steel,2,10
-Alolan Dugtrio,1,Ground,Steel,7,666
-Alolan Meowth,1,Dark,None,4,42
-Alolan Persian,1,Dark,None,11,330
-Alolan Geodude,1,Rock,Electric,4,203
-Alolan Graveler,1,Rock,Electric,10,1100
-Alolan Golem,1,Rock,Electric,17,3160
-Alolan Grimer,1,Poison,Dark,7,420
-Alolan Muk,1,Poison,Dark,10,520
-Alolan Exeggutor,1,Grass,Dragon,109,4156
-Alolan Marowak,1,Fire,Ghost,10,340
+Alolan Rattata,7,Dark,Normal,3,38
+Alolan Raticate,7,Dark,Normal,7,255
+Alolan Raichu,7,Electric,Psychic,7,210
+Alolan Sandshrew,7,Ice,Steel,7,400
+Alolan Sandslash,7,Ice,Steel,12,550
+Alolan Vulpix,7,Ice,None,6,99
+Alolan Ninetales,7,Ice,Fairy,11,199
+Alolan Diglett,7,Ground,Steel,2,10
+Alolan Dugtrio,7,Ground,Steel,7,666
+Alolan Meowth,7,Dark,None,4,42
+Alolan Persian,7,Dark,None,11,330
+Alolan Geodude,7,Rock,Electric,4,203
+Alolan Graveler,7,Rock,Electric,10,1100
+Alolan Golem,7,Rock,Electric,17,3160
+Alolan Grimer,7,Poison,Dark,7,420
+Alolan Muk,7,Poison,Dark,10,520
+Alolan Exeggutor,7,Grass,Dragon,109,4156
+Alolan Marowak,7,Fire,Ghost,10,340
 Greninja Battle Bond,6,Water,Dark,15,400
 Zygarde 10%,6,Dragon,Ground,12,335
 Zygarde Complete,6,Dragon,Ground,45,6100
@@ -1129,26 +1129,26 @@ Lycanroc Dusk,7,Rock,None,8,250
 Necrozma Dusk Mane,7,Psychic,Steel,38,4600
 Necrozma Dawn Wings,7,Psychic,Ghost,42,3500
 Necrozma Ultra,7,Psychic,Dragon,75,2300
-Galarian Meowth,1,Steel,None,4,75
-Galarian Ponyta,1,Psychic,None,8,240
-Galarian Rapidash,1,Psychic,Fairy,17,800
-Galarian Slowpoke,1,Psychic,None,12,360
-Galarian Slowbro,1,Poison,Psychic,16,705
-Galarian Farfetch'd,1,Fighting,None,8,420
-Galarian Weezing,1,Poison,Fairy,30,160
-Galarian Mr. Mime,1,Ice,Psychic,14,568
-Galarian Articuno,1,Psychic,Flying,17,509
-Galarian Zapdos,1,Fighting,Flying,16,582
-Galarian Moltres,1,Dark,Flying,20,660
-Galarian Slowking,2,Poison,Psychic,18,795
-Galarian Corsola,2,Ghost,None,6,5
-Galarian Zigzagoon,3,Dark,Normal,4,175
-Galarian Linoone,3,Dark,Normal,5,325
-Galarian Darumaka,5,Ice,None,7,400
-Galarian Darmanitan Standard,5,Ice,None,17,1200
-Galarian Darmanitan Zen,5,Ice,Fire,17,1200
-Galarian Yamask,5,Ground,Ghost,5,15
-Galarian Stunfisk,5,Ground,Steel,7,205
+Galarian Meowth,8,Steel,None,4,75
+Galarian Ponyta,8,Psychic,None,8,240
+Galarian Rapidash,8,Psychic,Fairy,17,800
+Galarian Slowpoke,8,Psychic,None,12,360
+Galarian Slowbro,8,Poison,Psychic,16,705
+Galarian Farfetch'd,8,Fighting,None,8,420
+Galarian Weezing,8,Poison,Fairy,30,160
+Galarian Mr. Mime,8,Ice,Psychic,14,568
+Galarian Articuno,8,Psychic,Flying,17,509
+Galarian Zapdos,8,Fighting,Flying,16,582
+Galarian Moltres,8,Dark,Flying,20,660
+Galarian Slowking,8,Poison,Psychic,18,795
+Galarian Corsola,8,Ghost,None,6,5
+Galarian Zigzagoon,8,Dark,Normal,4,175
+Galarian Linoone,8,Dark,Normal,5,325
+Galarian Darumaka,8,Ice,None,7,400
+Galarian Darmanitan Standard,8,Ice,None,17,1200
+Galarian Darmanitan Zen,8,Ice,Fire,17,1200
+Galarian Yamask,8,Ground,Ghost,5,15
+Galarian Stunfisk,8,Ground,Steel,7,205
 Cramorant Gulping,8,Flying,Water,8,180
 Cramorant Gorging,8,Flying,Water,8,180
 Zacian Crowned,8,Fairy,Steel,28,3550
@@ -1190,29 +1190,29 @@ Copperajah Gmax,8,Steel,None,230,10000
 Duraludon Gmax,8,Steel,Dragon,430,10000
 Urshifu Single Strike Gmax,8,Fighting,Dark,290,10000
 Urshifu Rapid Strike Gmax,8,Fighting,Water,260,10000
-Hisuian Growlithe,1,Fire,Rock,8,227
-Hisuian Arcanine,1,Fire,Rock,20,1680
-Hisuian Voltorb,1,Electric,Grass,5,130
-Hisuian Electrode,1,Electric,Grass,12,710
-Hisuian Typhlosion,2,Fire,Ghost,16,698
-Hisuian Qwilfish,2,Dark,Poison,5,39
-Hisuian Sneasel,2,Fighting,Poison,9,270
-Hisuian Samurott,5,Water,Dark,15,582
-Hisuian Lilligant,5,Grass,Fighting,12,192
-Hisuian Zorua,5,Normal,Ghost,7,125
-Hisuian Zoroark,5,Normal,Ghost,16,730
-Hisuian Braviary,5,Psychic,Flying,17,434
-Hisuian Sliggoo,6,Steel,Dragon,7,685
-Hisuian Goodra,6,Steel,Dragon,17,3341
-Hisuian Avalugg,6,Ice,Rock,14,2624
-Hisuian Decidueye,7,Grass,Fighting,16,370
+Hisuian Growlithe,8,Fire,Rock,8,227
+Hisuian Arcanine,8,Fire,Rock,20,1680
+Hisuian Voltorb,8,Electric,Grass,5,130
+Hisuian Electrode,8,Electric,Grass,12,710
+Hisuian Typhlosion,8,Fire,Ghost,16,698
+Hisuian Qwilfish,8,Dark,Poison,5,39
+Hisuian Sneasel,8,Fighting,Poison,9,270
+Hisuian Samurott,8,Water,Dark,15,582
+Hisuian Lilligant,8,Grass,Fighting,12,192
+Hisuian Zorua,8,Normal,Ghost,7,125
+Hisuian Zoroark,8,Normal,Ghost,16,730
+Hisuian Braviary,8,Psychic,Flying,17,434
+Hisuian Sliggoo,8,Steel,Dragon,7,685
+Hisuian Goodra,8,Steel,Dragon,17,3341
+Hisuian Avalugg,8,Ice,Rock,14,2624
+Hisuian Decidueye,8,Grass,Fighting,16,370
 Dialga Origin,4,Steel,Dragon,70,8487
 Palkia Origin,4,Water,Dragon,63,6590
 Enamorus Therian,9,Fairy,Flying,16,480
-Tauros Paldea Combat Breed,1,Fighting,None,14,1150
-Tauros Paldea Blaze Breed,1,Fighting,Fire,14,850
-Tauros Paldea Aqua Breed,1,Fighting,Water,14,1100
-Paldean Wooper,2,Poison,Ground,4,110
+Tauros Paldea Combat Breed,9,Fighting,None,14,1150
+Tauros Paldea Blaze Breed,9,Fighting,Fire,14,850
+Tauros Paldea Aqua Breed,9,Fighting,Water,14,1100
+Paldean Wooper,9,Poison,Ground,4,110
 Dudunsparce Three Segment,9,Normal,None,45,474
 Palafin Hero,9,Water,None,18,974
 Maushold Three,9,Normal,None,3,28
