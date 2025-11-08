@@ -1626,7 +1626,6 @@ document.addEventListener("DOMContentLoaded", function() {
         pushguess(loadedguesses[i])
     }
 
-    
 
 
 })
