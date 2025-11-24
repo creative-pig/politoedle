@@ -1326,8 +1326,53 @@ function getguess() {
     else {message.innerHTML = "That's not a Pokémon!"}
 }
 
+function updatetypes(name) {
+    for (i = 0; i<pokedata.length; i++) {
+        if (pokedata[i].Name.toLowerCase() == name.toLowerCase()) {
+            type1value = pokedata[i].Type1
+            type1right = valueresults(name)[1] != "wrong"
+            type2value = pokedata[i].Type2
+            type2right = valueresults(name)[2] != "wrong";
+            break
+        }
+    }
+
+    typeareas = document.getElementById("typescontainer")
+
+    for (typearea of typeareas.children) {
+        for (child of typearea.children) {
+            if (child.innerHTML == type1value) {
+                if (type1right) {
+                    child.classList.remove("unborderedtype")
+                    child.classList.add("borderedtype")
+                }
+                else {
+                    child.classList.remove("unfadedtype")
+                    child.classList.add("fadedtype")
+                }
+
+            }
+            if (child.innerHTML == type2value) {
+                if (type2right) {
+                    child.classList.remove("unborderedtype")
+                    child.classList.add("borderedtype")
+                }
+                else {
+                    child.classList.remove("unfadedtype")
+                    child.classList.add("fadedtype")
+                }
+
+            }
+        }
+    }
+
+    
+
+}
+
 function pushguess(guess) {
     createrow(guess, valueresults(guess))
+    updatetypes(guess)
     message = document.getElementById("message")
     if (checkwin(guess)) {
         if (daily) {
@@ -1380,7 +1425,7 @@ function reset() {
     }
     if (daily) {correctvalues = decidedaily()}
     else {correctvalues = pokedata[Math.floor(Math.random() * 1220)];}
-    startguess()
+    
 
     button = document.getElementById("guessbutton")
     button.innerHTML = "Guess!"
@@ -1391,6 +1436,20 @@ function reset() {
 
     input = document.getElementById("userguess")
     input.value = ""
+
+    typeareas = document.getElementById("typescontainer")
+
+    for (typearea of typeareas.children) {
+        for (child of typearea.children) {
+            child.classList.add("unborderedtype")
+            child.classList.remove("borderedtype")
+            child.classList.add("unfadedtype")
+            child.classList.remove("fadedtype")
+        }
+    }
+
+    startguess()
+
 }
 
 function generatelink(format, name) {
@@ -1553,6 +1612,7 @@ function createrow(name, results) {
 
 function startguess() {
     createrow("Politoed", valueresults("Politoed"))
+    updatetypes("Politoed")
 }
 
 function showdropdown(mons) {

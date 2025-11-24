@@ -182,3 +182,56 @@ button {
     margin-bottom: 10px;
 }
 
+.typescontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.typearea {
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap:1vw;
+}
+
+.typebox {
+    font-family: system-ui,'Segoe UI';
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 4px;
+    border-width: 4px;
+    position: relative;
+    border-style: solid;
+    border-color: transparent;
+}
+
+.normal {background-color: #9b9b9b;}
+.fire {background-color: #e00000;}
+.water {background-color: #0f00e0;}
+.grass {background-color: #10a100;}
+.electric {background-color: #a49600;}
+.ice {background-color: #008ba1;}
+.fighting {background-color: #630000;}
+.psychic {background-color: #8e007f;}
+.flying {background-color: #009c7d;}
+.poison {background-color: #600080;}
+.rock {background-color: #a16e00;}
+.ground {background-color: #654800;}
+.bug {background-color: #7ba100;}
+.ghost {background-color: #5600a1;}
+.dark {background-color: #000000;}
+.steel {background-color: #505050;}
+.dragon {background-color: #25006b;}
+.fairy {background-color: #cb0069;}
+
+.unborderedtype {border-color: transparent;}
+.borderedtype {border-color: #fff;}
+
+.unfadedtype {opacity: 1;}
+.fadedtype {opacity: 0.25;}
+
