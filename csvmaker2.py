@@ -191,7 +191,7 @@ def main():
         print(f"Processed {idx+1}/{len(pokemon_response['results'])}: {display_name}")
 
     # Step 4: Write to CSV
-    with open('pokemon_forms_human_readable.csv', 'w', newline='', encoding='utf-8') as f:
+    with open('pokemon_forms_human_readable2.csv', 'w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=['Name', 'Generation', 'Type1', 'Type2', 'Height', 'Weight'])
         writer.writeheader()
         for form in all_forms:

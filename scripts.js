@@ -1219,7 +1219,52 @@ Maushold Three,9,Normal,None,3,28
 Ursaluna Bloodmoon,9,Ground,Normal,24,2900
 Ogerpon Wellspring Mask,9,Grass,Water,12,398
 Ogerpon Hearthflame Mask,9,Grass,Fire,12,398
-Ogerpon Cornerstone Mask,9,Grass,Rock,12,398`
+Ogerpon Cornerstone Mask,9,Grass,Rock,12,398
+Mega Raichu X,9,Electric,None,12,380
+Mega Raichu Y,9,Electric,None,10,260
+Mega Clefable,9,Fairy,Flying,17,423
+Mega Victreebel,9,Grass,Poison,45,1255
+Mega Starmie,9,Water,Psychic,23,800
+Mega Dragonite,9,Dragon,Flying,22,2900
+Mega Meganium,9,Grass,Fairy,24,2010
+Mega Feraligatr,9,Water,Dragon,23,1088
+Mega Skarmory,9,Steel,Flying,17,404
+Mega Chimecho,9,Psychic,Steel,12,80
+Mega Absol Z,9,Dark,Ghost,12,490
+Mega Staraptor,9,Fighting,Flying,19,500
+Mega Garchomp Z,9,Dragon,None,19,990
+Mega Lucario Z,9,Fighting,Steel,14,494
+Mega Froslass,9,Ice,Ghost,26,296
+Mega Heatran,9,Fire,Steel,28,5700
+Mega Darkrai,9,Dark,None,30,2400
+Mega Emboar,9,Fire,Fighting,18,1803
+Mega Excadrill,9,Ground,Steel,9,600
+Mega Scolipede,9,Bug,Poison,32,2305
+Mega Scrafty,9,Dark,Fighting,11,310
+Mega Eelektross,9,Electric,None,30,1800
+Mega Chandelure,9,Ghost,Fire,25,696
+Mega Golurk,9,Ground,Ghost,40,3300
+Mega Chesnaught,9,Grass,Fighting,16,900
+Mega Delphox,9,Fire,Psychic,15,390
+Mega Greninja,9,Water,Dark,15,400
+Mega Pyroar,9,Fire,Normal,15,933
+Mega Floette,9,Fairy,None,2,1008
+Mega Meowstic,9,Psychic,None,8,101
+Mega Malamar,9,Dark,Psychic,29,698
+Mega Barbaracle,9,Rock,Fighting,22,1000
+Mega Dragalge,9,Poison,Dragon,21,1003
+Mega Hawlucha,9,Fighting,Flying,10,250
+Mega Crabominable,9,Fighting,Ice,26,2528
+Mega Golisopod,9,Bug,Steel,23,1480
+Mega Drampa,9,Normal,Dragon,30,2405
+Mega Magearna,9,Steel,Fairy,13,2481
+Mega Zeraora,9,Electric,None,15,445
+Mega Falinks,9,Fighting,None,16,990
+Mega Scovillain,9,Grass,Fire,12,220
+Mega Tatsugiri,9,Dragon,Water,6,240
+Mega Baxcalibur,9,Dragon,Ice,21,3150
+Mega Zygarde,9,Dragon,Ground,77,6100
+`
 
 var pokedata = jQuery.csv.toObjects(wholecsv);
 
