@@ -1268,17 +1268,47 @@ Mega Zygarde,9,Dragon,Ground,77,6100
 
 var pokedata = jQuery.csv.toObjects(wholecsv);
 
-function decidedaily() {
-    const today = new Date()
-    const todaystring = today.toISOString().substring(0,10)
-    let hash = 0
-    for (i = 0; i<todaystring.length; i++) {
-        char = todaystring.charCodeAt(i)
-        hash = ((hash << 5) - hash) + char
+
+function mulberry32(seed) {
+    return function() {
+        // change the seed every time we call the function - leads to random sequence
+        var tempseed = seed += 0x6D2B79F5;
+        // do a bunch of fucked up maths and bit operations to mangle the number
+        tempseed = Math.imul(t ^ (t >>> 15), tempseed | 1);
+        tempseed ^= tempseed + Math.imul(tempseed ^ (tempseed >>> 7), tempseed | 61);
+        // shrink 32 bit integer to between 0 and 1
+        return ((tempseed ^ (tempseed >>> 14)) >>> 0) / 4294967296;
     }
-    hash = hash * 41
-    hash = hash % 1220
-    return pokedata[Math.abs(hash)]
+}
+
+function decidedaily() {
+    const totalPokemon = pokedata.length;
+
+    // days since Unix Epoch
+    const now = new Date();
+    const msPerDay = 86400000;
+    const daysSinceEpoch = Math.floor(now.getTime() / msPerDay);
+
+    // cycle ID and the Day within that cycle
+    const cycleId = Math.floor(daysSinceEpoch / totalPokemon);
+    const dayInCycle = daysSinceEpoch % totalPokemon;
+
+    // initialize seeded random with the current cycle ID
+    const generator = mulberry32(cycleId);
+
+    // array of indices [0, 1, 2, ... 1264]
+    let indices = Array.from({length: totalPokemon}, (_, i) => i);
+
+    // shuffle using seeded random
+    for (let i = indices.length - 1; i > 0; i--) {
+        const j = Math.floor(generator() * (i + 1));
+        [indices[i], indices[j]] = [indices[j], indices[i]];
+    }
+
+    // index for today
+    const selectedIndex = indices[dayInCycle];
+
+    return pokedata[selectedIndex];
 }
 
 correctvalues = decidedaily()
