@@ -1274,7 +1274,7 @@ function mulberry32(seed) {
         // change the seed every time we call the function - leads to random sequence
         var tempseed = seed += 0x6D2B79F5;
         // do a bunch of fucked up maths and bit operations to mangle the number
-        tempseed = Math.imul(t ^ (t >>> 15), tempseed | 1);
+        tempseed = Math.imul(tempseed ^ (tempseed >>> 15), tempseed | 1);
         tempseed ^= tempseed + Math.imul(tempseed ^ (tempseed >>> 7), tempseed | 61);
         // shrink 32 bit integer to between 0 and 1
         return ((tempseed ^ (tempseed >>> 14)) >>> 0) / 4294967296;
@@ -1307,6 +1307,8 @@ function decidedaily() {
 
     // index for today
     const selectedIndex = indices[dayInCycle];
+
+    console.log(selectedIndex)
 
     return pokedata[selectedIndex];
 }
